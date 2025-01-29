@@ -1,6 +1,6 @@
 # 🎵 Frontend Immersion - Spotify Homepage Clone
 
-Welcome to the **Frontend Immersion by Alura**! This project focuses on creating a responsive Spotify homepage clone. Below is an overview of what we accomplished during Days 1 and 2.
+Welcome to the **Frontend Immersion by Alura**! This project focuses on creating a responsive Spotify homepage clone. Below is an overview of what we accomplished during Days 1, 2, and 3.
 
 ---
 
@@ -53,11 +53,39 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 
 ---
 
+## Day 3: Overview 📅
+
+### Topics Covered 📚
+
+- **Better Project Structure** 📂
+
+  - Organized files into a `src` folder for better project management.
+  - Created new CSS files for specific components.
+
+- **Code Refactoring** 🛠️
+
+  - Improved HTML structure and CSS organization for readability and maintainability.
+
+- **Flexbox Layout Implementation** 🏗️
+
+  - Applied Flexbox principles to structure the layout efficiently.
+
+- **Responsive Design Concepts** 📱
+
+  - Explored techniques to make the UI responsive on different screen sizes.
+
+- **Creating the Top Menu** 🎚️
+  - Implemented a search bar.
+  - Designed and styled the header navigation with login and signup buttons.
+
+---
+
 ## Tools and Resources Used 🔧
 
 - **[Font Awesome](https://fontawesome.com/)** for icons.
 - **Google Chrome DevTools** to test and refine styles.
 - **Reset CSS** to standardize browser styles.
+- **Flexbox** for responsive and dynamic layouts.
 
 ---
 
@@ -70,6 +98,7 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
   - 🌍 Language and cookie settings sections.
 - 🎵 A fixed footer with a prominent "Test Spotify Premium for Free" message.
 - 📱 Responsive layout with properly aligned components using Flexbox.
+- 🔍 Search bar for quick access to content.
 
 ---
 
@@ -77,9 +106,11 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 
 - **HTML**
   - Structured the sidebar, footer, and library sections.
+  - Created a responsive top menu.
 - **CSS**
   - Utilized Flexbox for layout.
   - Styled buttons, icons, and text with consistent spacing and colors.
+  - Improved code organization with separate stylesheets.
 
 ---
 
@@ -89,14 +120,12 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 
    ```bash
    git clone https://github.com/ricardotemporal/frontend-immersion.git
-
    ```
 
 2. Open the project folder:
 
    ```bash
    cd frontend-immersion
-
    ```
 
-3. Open index.html in your favorite browser.
+3. Open `index.html` in your favorite browser.
