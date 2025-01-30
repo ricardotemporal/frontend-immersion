@@ -1,6 +1,6 @@
 # 🎵 Frontend Immersion - Spotify Homepage Clone
 
-Welcome to the **Frontend Immersion by Alura**! This project focuses on creating a responsive Spotify homepage clone. Below is an overview of what we accomplished during Days 1, 2, and 3.
+Welcome to the **Frontend Immersion by Alura**! This project focuses on creating a responsive Spotify homepage clone. Below is an overview of what we accomplished during Days 1, 2, 3, and 4.
 
 ---
 
@@ -11,7 +11,7 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 - **HTML, CSS, and JavaScript Review**
 
   - Recapped the core differences between these technologies:
-    - **HTML**: 🏗️ Structure and content.
+    - **HTML**: 🏰️ Structure and content.
     - **CSS**: 🎨 Styling and layout.
     - **JavaScript**: ⚙️ Interactivity (not used today).
 
@@ -66,7 +66,7 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 
   - Improved HTML structure and CSS organization for readability and maintainability.
 
-- **Flexbox Layout Implementation** 🏗️
+- **Flexbox Layout Implementation** 🏰️
 
   - Applied Flexbox principles to structure the layout efficiently.
 
@@ -74,9 +74,40 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 
   - Explored techniques to make the UI responsive on different screen sizes.
 
-- **Creating the Top Menu** 🎚️
+- **Creating the Top Menu** 🎧
   - Implemented a search bar.
   - Designed and styled the header navigation with login and signup buttons.
+
+---
+
+## Day 4: Overview 📅
+
+### Topics Covered 📚
+
+- **Creating the Homepage Cards** 🌟
+
+  - Designed and structured the cards for displaying artists and playlists.
+  - Used CSS for styling to match the Spotify design.
+
+- **CSS Grid Layout** 🛠️
+
+  - Implemented CSS Grid for a more flexible and dynamic layout.
+  - Learned how to control column and row sizes efficiently.
+
+- **Making the Project Responsive** 📱
+
+  - Created the `media-queries.css` file to handle different screen sizes.
+  - Applied breakpoints to adjust layouts for mobile and tablet views.
+
+- **Introducing JavaScript** 📝
+
+  - Started adding interactivity to the project using JavaScript.
+  - Manipulated elements dynamically through the DOM.
+
+- **Using Promises in JavaScript** 🏆
+
+  - Learned about asynchronous JavaScript.
+  - Utilized `fetch` and Promises to request and display artist data dynamically.
 
 ---
 
@@ -85,7 +116,7 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 - **[Font Awesome](https://fontawesome.com/)** for icons.
 - **Google Chrome DevTools** to test and refine styles.
 - **Reset CSS** to standardize browser styles.
-- **Flexbox** for responsive and dynamic layouts.
+- **Flexbox & CSS Grid** for responsive and dynamic layouts.
 
 ---
 
@@ -97,8 +128,9 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
   - ➕ Playlist creation placeholder with explanatory text.
   - 🌍 Language and cookie settings sections.
 - 🎵 A fixed footer with a prominent "Test Spotify Premium for Free" message.
-- 📱 Responsive layout with properly aligned components using Flexbox.
+- 📱 Responsive layout with properly aligned components using Flexbox and Grid.
 - 🔍 Search bar for quick access to content.
+- 📝 Dynamic artist and playlist cards powered by JavaScript and Promises.
 
 ---
 
@@ -107,10 +139,14 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
 - **HTML**
   - Structured the sidebar, footer, and library sections.
   - Created a responsive top menu.
+  - Added artist and playlist cards dynamically.
 - **CSS**
-  - Utilized Flexbox for layout.
+  - Utilized Flexbox and CSS Grid for layout.
   - Styled buttons, icons, and text with consistent spacing and colors.
   - Improved code organization with separate stylesheets.
+- **JavaScript**
+  - Implemented interactivity using DOM manipulation.
+  - Integrated Promises and `fetch` for dynamic data handling.
 
 ---
 
@@ -128,4 +164,11 @@ Welcome to the **Frontend Immersion by Alura**! This project focuses on creating
    cd frontend-immersion
    ```
 
-3. Open `index.html` in your favorite browser.
+3. Install dependencies and run the local API server:
+
+   ```bash
+   npm i json-server -g
+   json-server --watch api-artists/artists.json --port 3000
+   ```
+
+4. Open `index.html` in your favorite browser or use Live Server in VS Code.
